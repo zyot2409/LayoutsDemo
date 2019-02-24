@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout Demo"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout Demo"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Constraint Layout Demo"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frame Layout Demo"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Table Layout Demo"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grid Layout Demo"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
