@@ -45,9 +45,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
             case R.id.btnRelative:{
+                Intent intent = new Intent(getBaseContext(),RelativeLayoutDemoActivity.class);
+                startActivity(intent);
                 break;
             }
             case R.id.btnConstraint:{
+                Intent intent = new Intent(getBaseContext(),ConstraintLayoutDemoActivity.class);
+                startActivity(intent);
                 break;
             }
             case R.id.btnFrame:{

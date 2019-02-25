@@ -2,8 +2,18 @@
 Demo about some kinds of layout on Android
 
 #References
+
+https://guides.codepath.com/android/Constructing-View-Layouts
 ## Linear Layout
 
-https://guides.codepath.com/android/Constructing-View-Layouts#linearlayout
 https://developer.android.com/reference/android/widget/LinearLayout
 https://www.tutorialspoint.com/android/android_linear_layout.htm
+
+## Relative Layout
+
+https://developer.android.com/guide/topics/ui/layout/relative
+https://www.tutorialspoint.com/android/android_relative_layout.htm
+
+## Constraint Layout
+
+https://developer.android.com/reference/android/support/constraint/ConstraintLayout

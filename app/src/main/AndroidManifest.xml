@@ -16,7 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LinearLayoutDemoActivity"></activity>
+        <activity
+            android:name=".LinearLayoutDemoActivity"
+            android:label="Linear Layout Demo"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RelativeLayoutDemoActivity"
+            android:label="Relative Layout Demo"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ConstraintLayoutDemoActivity"
+            android:label="Constraint Layout Demo"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
