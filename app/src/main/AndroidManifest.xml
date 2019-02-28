@@ -28,6 +28,10 @@
             android:name=".ConstraintLayoutDemoActivity"
             android:label="Constraint Layout Demo"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FrameLayoutDemoActivity"
+            android:label="Frame Layout Demo"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
