@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btnLinear;
     private Button btnRelative;
@@ -38,29 +38,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.btnLinear:{
-                Intent intent = new Intent(getBaseContext(),LinearLayoutDemoActivity.class);
+        switch (v.getId()) {
+            case R.id.btnLinear: {
+                Intent intent = new Intent(getBaseContext(), LinearLayoutDemoActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.btnRelative:{
-                Intent intent = new Intent(getBaseContext(),RelativeLayoutDemoActivity.class);
+            case R.id.btnRelative: {
+                Intent intent = new Intent(getBaseContext(), RelativeLayoutDemoActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.btnConstraint:{
-                Intent intent = new Intent(getBaseContext(),ConstraintLayoutDemoActivity.class);
+            case R.id.btnConstraint: {
+                Intent intent = new Intent(getBaseContext(), ConstraintLayoutDemoActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.btnFrame:{
+            case R.id.btnFrame: {
+                Intent intent = new Intent(getBaseContext(), FrameLayoutDemoActivity.class);
+                startActivity(intent);
                 break;
             }
-            case R.id.btnTable:{
+            case R.id.btnTable: {
                 break;
             }
-            case R.id.btnGrid:{
+            case R.id.btnGrid: {
+                Intent intent = new Intent(getBaseContext(), GridLayoutDemoActivity.class);
+                startActivity(intent);
                 break;
             }
         }

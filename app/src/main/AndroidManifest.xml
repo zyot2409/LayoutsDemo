@@ -32,6 +32,10 @@
             android:name=".FrameLayoutDemoActivity"
             android:label="Frame Layout Demo"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GridLayoutDemoActivity"
+            android:label="Grid Layout Demo"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
