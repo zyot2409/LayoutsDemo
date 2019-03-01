@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
             case R.id.btnTable: {
+                Intent intent = new Intent(getBaseContext(),TableLayoutDemoActivity.class);
+                startActivity(intent);
                 break;
             }
             case R.id.btnGrid: {

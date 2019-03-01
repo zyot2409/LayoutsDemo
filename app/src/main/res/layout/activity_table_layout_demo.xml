@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    tools:context=".TableLayoutDemoActivity">
+
+    <TableRow>
+        <TextView
+            android:textSize="25dp"
+            android:text="Hello Table Layout"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:textSize="25dp"
+            android:text="B1"/>
+        <Button
+            android:textSize="25dp"
+            android:text="ABCSCSD"/>
+        <Button
+            android:text="Bi Tran Man Hinh"/>
+    </TableRow>
+
+    <TableRow>
+        <SeekBar
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:textSize="25dp"
+            android:text="index from 0"
+            android:layout_column="1"/>
+
+        <Button
+            android:textSize="20dp"
+            android:text="next view is on the right"/>
+    </TableRow>
+</TableLayout>
